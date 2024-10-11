@@ -1,10 +1,7 @@
 import orcamentoPage from "../support/pages/Orcamento";
 
-
-
 describe('Testes de Orçamento', () => {
-  //const orcamentoPage = new OrcamentoPage();
-
+  
   it('Deve preencher o formulário de orçamento corretamente e validar o resultado', () => {
     orcamentoPage.visit('http://192.168.0.111:8080/index.html');
     orcamentoPage.preencherValorPassagem('200');
